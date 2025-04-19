@@ -5,9 +5,9 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Load the trained models
-diabetes_model = pickle.load(open('Multiple_Disease_Prediction-using-ML-main\diabetes_model.sav', 'rb'))
-heart_model = pickle.load(open('Multiple_Disease_Prediction-using-ML-main\heart_prediction.sav', 'rb'))
-parkinson_model = pickle.load(open('Multiple_Disease_Prediction-using-ML-main\parkinson_prediction.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+heart_model = pickle.load(open('heart_prediction.sav', 'rb'))
+parkinson_model = pickle.load(open('parkinson_prediction.sav', 'rb'))
 
 # Create a sidebar
 with st.sidebar:
