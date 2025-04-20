@@ -339,7 +339,7 @@ if selected == 'Parkinson Prediction':
 st.markdown("---")
 st.markdown("""
     <div style="text-align: center; font-size: 14px;">
-        <p>This predictive tool is for informational purposes only and should not replace professional medical advice.</p>
-        <p>© 2023 Multiple Disease Prediction System</p>
+        <p>Desined by Purvesh Patil with ❤️</p>
+        
     </div>
     """, unsafe_allow_html=True)
