@@ -11,7 +11,7 @@ parkinson_model = pickle.load(open('parkinson_prediction.sav', 'rb'))
 
 # Initialize session state for theme
 if 'theme' not in st.session_state:
-    st.session_state.theme = 'light'
+    st.session_state.theme = 'dark'
 
 # Function to toggle theme
 def toggle_theme():
